@@ -1,4 +1,4 @@
-# BOEngineeringBenchmarks
+# BO Engineering Benchmarks with PFN-CEI
 
 
 Code for "Fast and Accurate Bayesian Optimization with Pre-trained Transformers for Constrained Engineering Problems"
