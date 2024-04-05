@@ -1,7 +1,7 @@
 # PFN-CEI: A Pre-Trained Transformer-Based Constrained Bayesian Optimization Algorithm
 
-
-Paper: "Fast and Accurate Bayesian Optimization with Pre-trained Transformers for Constrained Engineering Problems"
+## Citation
+<Paper: "Fast and Accurate Bayesian Optimization with Pre-trained Transformers for Constrained Engineering Problems">
 
 ## Introduction
 PFN-CEI is constrained Bayesian Optimization (CBO) framework using prior-data fitted network (PFN) that can do faster Bayesian Optimization (BO) than using Gaussian Process (GP). This framework is built upon using [BoTorch](https://github.com/pytorch/botorch) and [PFNs4BO](https://github.com/automl/PFNs4BO). The main contribution is to add the constraint-handling ability to PFNs4BO framework by using the batch processing ability of PFN's transformer structure.  
