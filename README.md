@@ -15,7 +15,7 @@ The tutorials show you how to use three constraint handling methods on PFN-based
 5. Tutorial_PFN_CEI.ipynb:
 6. Tutorial_PFN_CEI_plus.ipynb: 
 
-![Visual]([http://url/to/img.png](https://github.com/rosenyu304/BO-PFN-CEI/blob/main/image.png?raw=true))
+![Visual](image.png)
 
 ## Test problems
 We provided 15 test optimization problems for benchmarking BO methods. The way of using it is shown in Test_function_example.ipynb and here:
