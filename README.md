@@ -3,11 +3,13 @@
 ## Citation
 
 
-## Introduction
-This repo contains fast Bayesian optimization (BO) algorithms and constrained optimization benchmark problems, specifically highlighting 9 engineering design optimization problems, including structure optimization and car crash problems. We highlight that our PFN-CEI framework exploits the transformer architecture of a prior-data fitted network (PFN) for calculating constrained expected improvement as BO's acquisition function, which enables faster BO than using traditional Gaussian Processes (GP). Tutorials on performing constrained Bayesian Optimization (CBO) using 3 different constraint-handling techniques and 2 surrogates are included.
+## Overview
+We introduce fast and accurate constrained Bayesian optimization (CBO) algorithms using a prior-data fitted network ([PFN](https://github.com/automl/PFNs4BO)) as a surrogate and compare with the state-of-the-art Bayesian optimization (BO) library [Botorch](https://github.com/pytorch/botorch) using Gaussian Processes (GP). Our PFN-CEI framework exploits the transformer architecture of a prior-data fitted network (PFN) for calculating constrained expected improvement as BO's acquisition function, enabling batch processing the calculation of the objective's expected improvement and the probability of feasibility of the constraint in parallel. Tutorials on performing constrained Bayesian Optimization (CBO) using 3 different constraint-handling techniques and 2 surrogates are included.
+
+To foster collaborative progress, we also put our constrained test problem set and corresponding code in this repo under the "test_functions" folder. 
 
 ## CBO algorithms
-The tutorials show you how to use three constraint-handling methods on PFN-based and GP-based CBO in total 6 algorithms. Here is the tutorial on using the six algorithms:
+The tutorials show you how to use three constraint-handling methods on PFN-based and GP-based CBO in total 6 algorithms we highlighted in our paper. Here is the tutorial on using the six algorithms:
 
 1. `Tutorial_PFN_Pen.ipynb`: PFN-based BO with a penalty function on the objective.
 2. `Tutorial_PFN_CEI.ipynb`: PFN-based BO with constrained expected improvement (CEI) as acquisition function.
