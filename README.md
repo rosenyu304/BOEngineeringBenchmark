@@ -8,12 +8,12 @@ PFN-CEI is constrained Bayesian Optimization (CBO) framework using prior-data fi
 
 ## CBO algorithms
 The tutorials show you how to use three constraint handling methods on PFN-based and GP-based CBO, in total 6 algorithms. Here is the tutorial on using the six algorithms:
-1. Tutorial_GP_Pen.ipynb: GP-based BO with a penalty function on the objective.
-2. Tutorial_GP_CEI.ipynb: GP-based BO with constrained expected improvement (CEI) as acquisition function.
-3. Tutorial_GP_CEI_plus.ipynb: GP-based BO with thresholded constrained expected improvement (CEI+) as acquisition function.
-4. Tutorial_PFN_Pen.ipynb: PFN-based BO with a penalty function on the objective.
-5. Tutorial_PFN_CEI.ipynb: PFN-based BO with constrained expected improvement (CEI) as acquisition function.
-6. Tutorial_PFN_CEI_plus.ipynb: PFN-based BO with thresholded constrained expected improvement (CEI+) as acquisition function.
+1. `Tutorial_GP_Pen.ipynb`: GP-based BO with a penalty function on the objective.
+2. `Tutorial_GP_CEI.ipynb`: GP-based BO with constrained expected improvement (CEI) as acquisition function.
+3. `Tutorial_GP_CEI_plus.ipynb`: GP-based BO with thresholded constrained expected improvement (CEI+) as acquisition function.
+4. `Tutorial_PFN_Pen.ipynb`: PFN-based BO with a penalty function on the objective.
+5. `Tutorial_PFN_CEI.ipynb`: PFN-based BO with constrained expected improvement (CEI) as acquisition function.
+6. `Tutorial_PFN_CEI_plus.ipynb`: PFN-based BO with thresholded constrained expected improvement (CEI+) as acquisition function.
 
 ![Visual](image.png)
 
