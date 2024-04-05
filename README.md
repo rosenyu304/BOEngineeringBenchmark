@@ -21,7 +21,7 @@ The tutorials show you how to use three constraint-handling methods on PFN-based
 ![Visual](image.png)
 
 ## Test problems
-We provided 15 test optimization problems for benchmarking BO methods. The way of using it is shown in Test_function_example.ipynb and here:
+We provided 15 constrained optimization test problems for benchmarking BO methods. The way of using it is shown in `Test_function_example.ipynb` and here:
 ```
 import torch
 import numpy as np
@@ -30,7 +30,7 @@ import numpy as np
 from test_functions.Ackley2D import Ackley2D, Ackley2D_Scaling
 
 # Initialized sample in the correct dimension based on the test case
-# The test case need to have X in [0,1]
+# The test case needs to have X in [0,1]
 X = torch.rand(20,2)
 
 # Scale the X in [0,1] to the domain of interest
