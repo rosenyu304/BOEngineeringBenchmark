@@ -1,10 +1,10 @@
-# Benchmarking Engineering Optimization Test Problems with Pre-Trained Transformer-Based Constrained Bayesian Optimization Algorithm
+# Benchmarking Engineering Optimization Test Problems with Pre-Trained Transformer-Based Constrained Bayesian Optimization (CBO) Algorithm
 
 ## Citation
 
 
 ## Overview
-We introduce fast and accurate constrained Bayesian optimization (CBO) algorithms using a prior-data fitted network ([PFN](https://github.com/automl/PFNs4BO), Muller et al. 2023) as a surrogate and compare with the state-of-the-art Bayesian optimization (BO) library [Botorch](https://github.com/pytorch/botorch) using Gaussian Processes (GP). Our PFN-CEI framework exploits the transformer architecture of a PFN for calculating constrained expected improvement as BO's acquisition function, enabling batch processing the calculation of the objective's expected improvement and the probability of feasibility of the constraint in parallel. Tutorials on performing CBO using 3 different constraint-handling techniques and 2 surrogates are included.
+We introduce fast and accurate CBO algorithms using a prior-data fitted network ([PFN](https://github.com/automl/PFNs4BO), Muller et al. 2023) as a surrogate and compare with the state-of-the-art Bayesian optimization (BO) library [Botorch](https://github.com/pytorch/botorch) using Gaussian Processes (GP). Our PFN-CEI framework exploits the transformer architecture of a PFN for calculating constrained expected improvement as BO's acquisition function, enabling batch processing the calculation of the objective's expected improvement and the probability of feasibility of the constraint in parallel. Tutorials on performing CBO using 3 different constraint-handling techniques and 2 surrogates are included.
 
 To foster collaborative progress, we also put our constrained test problem set and corresponding code in this repo under the "test_functions" folder. 
 
