@@ -30,7 +30,7 @@ import numpy as np
 from test_functions.Ackley2D import Ackley2D, Ackley2D_Scaling
 
 # Initialized sample in the correct dimension based on the test case
-# The test case needs to have X in [0,1]
+# The test case needs to have X in the range of [0,1] for BO
 X = torch.rand(20,2)
 
 # Scale the X in [0,1] to the domain of interest
