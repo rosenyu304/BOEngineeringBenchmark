@@ -1,4 +1,4 @@
-# PFN-CEI: A Pre-Trained Transformer-Based Constrained Bayesian Optimization Algorithm
+# Benchmarking Engineering Optimization Test Problems with Pre-Trained Transformer-Based Constrained Bayesian Optimization Algorithm
 
 ## Citation
 
