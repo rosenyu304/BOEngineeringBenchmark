@@ -17,7 +17,7 @@ pytorch-cuda=12.1
 By git-cloning this repository, you will have the PFN-based CBO code already set up for you with the correct file dependency. With the code released in [PFNs4BO](https://github.com/automl/PFNs4BO), you MUST install the specific Botorch version. We provided an example ```environment.yaml``` file for your reference. 
 
 ## Benchmark Test problems
-We provided 15 constrained optimization test problems for benchmarking BO methods. 
+We provided the code of 15 constrained optimization test problems taken from the literature for benchmarking BO methods. 
 ![Visual](Icons.png)
 The way of using it is shown in `Test_function_example.ipynb` and here:
 ```
