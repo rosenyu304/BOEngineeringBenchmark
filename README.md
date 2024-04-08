@@ -8,6 +8,14 @@ We introduce fast and accurate CBO algorithms using a prior-data fitted network 
 
 To foster collaborative progress, we also put our constrained test problem set and corresponding code in this repo under the "test_functions" folder. 
 
+## Requirements
+To run the code, you will need to install:
+```
+botorch==0.8.4
+pytorch-cuda=12.1
+```
+By git-cloning this repository, you will have the pfns4bo already set up for you with the correct file dependency. With the code released in [PFNs4BO](https://github.com/automl/PFNs4BO), you must install the specific Botorch version. We provided an example ```environment.yaml``` file for your reference. 
+
 ## CBO algorithms
 The tutorials show you how to use three constraint-handling methods on PFN-based and GP-based CBO in total 6 algorithms we highlighted in our paper. Here is the tutorial on using the six algorithms:
 
