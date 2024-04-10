@@ -1,8 +1,5 @@
 # Benchmarking Engineering Optimization Test Problems with Pre-Trained Transformer-Based Constrained Bayesian Optimization (CBO) Algorithm
 
-## Citation
-
-
 ## Overview
 We introduce fast and accurate CBO algorithms using a prior-data fitted network ([PFN](https://github.com/automl/PFNs4BO), Muller et al. 2023) as a surrogate and compare with the state-of-the-art Bayesian optimization (BO) library [Botorch](https://github.com/pytorch/botorch) using Gaussian Processes (GP). Our PFN-CEI framework exploits the transformer architecture of a PFN for calculating constrained expected improvement as BO's acquisition function, enabling batch processing the calculation of the objective's expected improvement and the probability of feasibility of the constraint in parallel. Tutorials on performing CBO using 3 different constraint-handling techniques and 2 surrogates are included.
 
@@ -52,4 +49,14 @@ The tutorials show you how to use three constraint-handling methods on PFN-based
 
 ![Visual](image.png)
 
-
+## Citation
+```
+@misc{rosen2024fast,
+      title={Fast and Accurate Bayesian Optimization with Pre-trained Transformers for Constrained Engineering Problems}, 
+      author={Rosen and Yu and Cyril Picard and Faez Ahmed},
+      year={2024},
+      eprint={2404.04495},
+      archivePrefix={arXiv},
+      primaryClass={cs.CE}
+}
+```
