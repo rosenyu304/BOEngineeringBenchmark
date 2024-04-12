@@ -43,12 +43,11 @@ def JLH2(individuals):
 
 
 
-def JLH2_Scaling(individuals): 
+def JLH2_Scaling(X): 
 
     assert torch.is_tensor(X) and X.size(1) == 2, "Input must be an n-by-2 PyTorch tensor."
 
-    
-    X = individuals
+
     X1 = X[:,0].reshape(X.size(0),1)
     X1 = X1*5-5
     X2 = X[:,1].reshape(X.size(0),1)
