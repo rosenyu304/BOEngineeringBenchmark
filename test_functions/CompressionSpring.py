@@ -18,7 +18,7 @@ import numpy as np
 
 def CompressionSpring(individuals):
 
-    assert torch.is_tensor(individuals) and individuals.size(1) == 8, "Input must be an n-by-8 PyTorch tensor."
+    assert torch.is_tensor(individuals) and individuals.size(1) == 3, "Input must be an n-by-3 PyTorch tensor."
     
     
     fx = []
@@ -81,7 +81,7 @@ def CompressionSpring(individuals):
 
 def CompressionSpring_Scaling(X): 
 
-    assert torch.is_tensor(X) and X.size(1) == 8, "Input must be an n-by-8 PyTorch tensor."
+    assert torch.is_tensor(X) and X.size(1) == 3, "Input must be an n-by-3 PyTorch tensor."
     
     d = (X[:,0] * ( 1   - 0.05 ) + 0.05 ).reshape(X.shape[0],1)
     D = (X[:,1] * ( 1.3 - 0.25 ) + 0.25   ).reshape(X.shape[0],1)
