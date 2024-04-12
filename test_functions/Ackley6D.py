@@ -57,7 +57,7 @@ def Ackley6D(individuals):
 
 def Ackley6D_Scaling(X):
 
-    assert torch.is_tensor(X) and X.size(1) == 10, "Input must be an n-by-6 PyTorch tensor."
+    assert torch.is_tensor(X) and X.size(1) == 6, "Input must be an n-by-6 PyTorch tensor."
     
     X_scaled = X*15-5
     
