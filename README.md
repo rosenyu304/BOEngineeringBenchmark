@@ -53,7 +53,7 @@ The tutorials show you how to use three constraint-handling methods on PFN-based
 ```
 @misc{rosen2024fast,
       title={Fast and Accurate Bayesian Optimization with Pre-trained Transformers for Constrained Engineering Problems}, 
-      author={Rosen and Yu and Cyril Picard and Faez Ahmed},
+      author={Rosen Yu and Cyril Picard and Faez Ahmed},
       year={2024},
       eprint={2404.04495},
       archivePrefix={arXiv},
