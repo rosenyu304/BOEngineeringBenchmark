@@ -59,4 +59,5 @@ def CantileverBeam_Scaling(X):
 
     scale_mult = torch.tensor([(5-1), (5-1), (5-1), (5-1), (5-1), (65-30), (65-30), (65-30), (65-30), (65-30)])
     scale_add = torch.tensor([1, 1, 1, 1, 1, 30, 30, 30, 30, 30])
+    
     return torch.mul(X, scale_mult) + scale_add
