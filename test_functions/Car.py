@@ -61,6 +61,7 @@ def Car(individuals):
         fx[i] = test_function
 
     gx = torch.cat((gx1, gx2, gx3, gx4, gx5, gx6, gx7, gx8, gx9, gx10), 1)
+
     return gx, fx
 
 def Car_Scaling(X):
