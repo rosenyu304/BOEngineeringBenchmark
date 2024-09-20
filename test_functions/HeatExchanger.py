@@ -28,9 +28,9 @@ def HeatExchanger(individuals):
         ## Negative sign to make it a maximization problem
         test_function = - ( x1+x2+x3 )
 
-        fx = torch.cat((fx, torch.tensor([test_function])))
+        fx = torch.cat((fx, torch.tensor([[test_function]])))
 
-        ## Calculate and add constraints terms
+        ## Calculate constraints terms
         gx1 = torch.cat((gx1, torch.tensor([[0.0025 * (x4+x6) - 1]])))
         gx2 = torch.cat((gx2, torch.tensor([[0.0025 * (x5 + x7 - x4) - 1]])))
         gx3 = torch.cat((gx3, torch.tensor([[0.01 *(x8-x5) - 1]])))
@@ -38,7 +38,6 @@ def HeatExchanger(individuals):
         gx5 = torch.cat((gx5, torch.tensor([[1250*x5 + x2*x4 - x2*x7 - 125*x4]])))
         gx6 = torch.cat((gx6, torch.tensor([[x3*x5 - 2500*x5 - x3*x8 + 125*10000]])))
 
-    fx = torch.reshape(fx, (len(fx),1))
     gx = torch.cat((gx1, gx2, gx3, gx4, gx5, gx6), 1)
 
     return gx, fx
