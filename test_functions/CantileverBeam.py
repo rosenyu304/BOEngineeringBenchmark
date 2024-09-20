@@ -57,8 +57,6 @@ def CantileverBeam_Scaling(X):
 
     assert torch.is_tensor(X) and X.size(1) == 10, "Input must be an n-by-10 PyTorch tensor."
 
-    x1 = (X[:,:5] * (5-1) + 1)
-    x2 = (X[:,5:] * (65-30) + 30)
-
-    X_scaled = torch.cat((x1, x2), dim=1)
-    return X_scaled
+    scale_mult = torch.tensor([(5-1), (5-1), (5-1), (5-1), (5-1), (65-30), (65-30), (65-30), (65-30), (65-30)])
+    scale_add = torch.tensor([1, 1, 1, 1, 1, 30, 30, 30, 30, 30])
+    return torch.mul(X, scale_mult) + scale_add
