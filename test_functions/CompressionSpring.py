@@ -1,15 +1,17 @@
 import torch
 import numpy as np
 
-#
-#
-#   CompressionSpring: 8D objective, 6 constraints
-#
-#   Reference:
-#     Gandomi AH, Yang XS, Alavi AH (2011) Mixed variable structural optimization using firefly
-#     algorithm. Computers & Structures 89(23-24):2325–2336
-#
-#
+
+r"""
+
+    CompressionSpring: 8D objective, 6 constraints
+
+    Reference:
+      Gandomi AH, Yang XS, Alavi AH (2011) Mixed variable structural optimization using firefly
+      algorithm. Computers & Structures 89(23-24):2325–2336
+
+
+"""
 
 
 def CompressionSpring(individuals):
