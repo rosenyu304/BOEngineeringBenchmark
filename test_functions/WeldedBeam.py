@@ -1,15 +1,17 @@
 import torch
 import numpy as np
 
-#
-#
-#   WeldedBeam: 4D objective, 5 constraints
-#
-#   Reference:
-#     Gandomi AH, Yang XS, Alavi AH (2011) Mixed variable structural optimization using firefly
-#     algorithm. Computers & Structures 89(23-24):2325–2336
-#
-#
+
+r"""
+
+    WeldedBeam: 4D objective, 5 constraints
+
+    Reference:
+      Gandomi AH, Yang XS, Alavi AH (2011) Mixed variable structural optimization using firefly
+      algorithm. Computers & Structures 89(23-24):2325–2336
+
+
+"""
 
 
 def WeldedBeam(individuals):
