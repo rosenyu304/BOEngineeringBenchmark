@@ -1,15 +1,17 @@
 import torch
 import numpy as np
 
-#
-#
-#   Car: 11D objective, 10 constraints
-#
-#   Reference:
-#     Gandomi AH, Yang XS, Alavi AH (2011) Mixed variable structural optimization using firefly
-#     algorithm. Computers & Structures 89(23-24):2325–2336
-#
-#
+
+r"""
+
+    Car: 11D objective, 10 constraints
+
+    Reference:
+      Gandomi AH, Yang XS, Alavi AH (2011) Mixed variable structural optimization using firefly
+      algorithm. Computers & Structures 89(23-24):2325–2336
+
+
+"""
 
 
 def Car(individuals):
