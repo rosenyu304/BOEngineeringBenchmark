@@ -13,6 +13,13 @@ pytorch-cuda=12.1
 ```
 By git-cloning this repository, you will have the PFN-based CBO code already set up for you with the correct file dependency. With the code released in [PFNs4BO](https://github.com/automl/PFNs4BO), you MUST install the specific Botorch version. We provided an example ```environment.yaml``` file for your reference. 
 
+### Model Download Issue
+There is an issue with Github LFS so the model in this repo cannot be downloaded directly. Please follow the instruction below to get the PFN model:
+
+1. Download the model from the original PFNs4BO repo: https://github.com/automl/PFNs4BO/tree/main/pfns4bo/final_models/model_hebo_morebudget_9_unused_features_3.pt.gz
+2. Run the python script "get_PFN.py" for unzipping the model. Change the ```compressed_model_path``` and ```decompressed_model_path``` to where you store the model and where you want the decompressed model to be.
+
+
 ## Benchmark Test problems
 We provided the code of 15 constrained optimization test problems taken from the literature for benchmarking BO methods. 
 ![Visual](Icons.png)
