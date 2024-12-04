@@ -1,15 +1,17 @@
 import torch
 import numpy as np
 
-#
-#
-#   ReinforcedConcreteBeam: 3D objective, 9 constraints
-#
-#   Reference:
-#     Gandomi AH, Yang XS, Alavi AH (2011) Mixed variable structural optimization using firefly
-#     algorithm. Computers & Structures 89(23-24):2325–2336
-#
-#
+
+r"""
+
+    ReinforcedConcreteBeam: 3D objective, 9 constraints
+
+    Reference:
+      Gandomi AH, Yang XS, Alavi AH (2011) Mixed variable structural optimization using firefly
+      algorithm. Computers & Structures 89(23-24):2325–2336
+
+
+"""
 
 
 def ReinforcedConcreteBeam(individuals):
