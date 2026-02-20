@@ -1,5 +1,8 @@
 # Benchmarking Engineering Optimization Test Problems with Pre-Trained Transformer-Based Constrained Bayesian Optimization (CBO) Algorithm
 
+## Paper
+Yu, R., Picard, C., & Ahmed, F. (2025). Fast and accurate Bayesian optimization with pre-trained transformers for constrained engineering problems: R. Yu et al.. Structural and Multidisciplinary Optimization, 68(3), 66. [Link to Paper.](https://link.springer.com/article/10.1007/s00158-025-03987-z)
+
 ## Overview
 We introduce fast and accurate CBO algorithms using a prior-data fitted network ([PFN](https://github.com/automl/PFNs4BO), Muller et al. 2023) as a surrogate and compare with the state-of-the-art Bayesian optimization (BO) library [Botorch](https://github.com/pytorch/botorch) using Gaussian Processes (GP). Our PFN-CEI framework exploits the transformer architecture of a PFN for calculating constrained expected improvement as BO's acquisition function, enabling batch processing the calculation of the objective's expected improvement and the probability of feasibility of the constraint in parallel. Tutorials on performing CBO using 3 different constraint-handling techniques and 2 surrogates are included.
 
@@ -58,12 +61,14 @@ The tutorials show you how to use three constraint-handling methods on PFN-based
 
 ## Citation
 ```
-@misc{rosen2024fast,
-      title={Fast and Accurate Bayesian Optimization with Pre-trained Transformers for Constrained Engineering Problems}, 
-      author={Rosen Yu and Cyril Picard and Faez Ahmed},
-      year={2024},
-      eprint={2404.04495},
-      archivePrefix={arXiv},
-      primaryClass={cs.CE}
+@article{yu2025fast,
+  title={Fast and accurate Bayesian optimization with pre-trained transformers for constrained engineering problems: R. Yu et al..},
+  author={Yu, Rosen and Picard, Cyril and Ahmed, Faez},
+  journal={Structural and Multidisciplinary Optimization},
+  volume={68},
+  number={3},
+  pages={66},
+  year={2025},
+  publisher={Springer}
 }
 ```
