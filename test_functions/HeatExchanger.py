@@ -1,15 +1,17 @@
 import torch
 import numpy as np
 
-#
-#
-#   HeatExchanger: 8D objective, 6 constraints
-#
-#   Reference:
-#     Yang XS, Hossein Gandomi A (2012) Bat algorithm: a novel approach for global
-#     engineering optimization. Engineering computations 29(5):464–483
-#
-#
+
+r"""
+
+    HeatExchanger: 8D objective, 6 constraints
+
+    Reference:
+      Yang XS, Hossein Gandomi A (2012) Bat algorithm: a novel approach for global
+      engineering optimization. Engineering computations 29(5):464–483
+
+
+"""
 
 
 def HeatExchanger(individuals):
