@@ -2,15 +2,16 @@ import torch
 import numpy as np
 
 
-#
-#
-#   ThreeTruss: 2D objective, 3 constraints
-#
-#   Reference:
-#     Yang XS, Hossein Gandomi A (2012) Bat algorithm: a novel approach for global
-#     engineering optimization. Engineering computations 29(5):464–483
-#
-#
+r"""
+
+    ThreeTruss: 2D objective, 3 constraints
+
+    Reference:
+      Yang XS, Hossein Gandomi A (2012) Bat algorithm: a novel approach for global
+      engineering optimization. Engineering computations 29(5):464–483
+
+
+"""
 
 
 def ThreeTruss(individuals):
